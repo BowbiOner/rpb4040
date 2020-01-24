@@ -32,7 +32,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${FiveDays})`}}>
                             <header className="major">
                                 <h3>5 Days of Font</h3>
-                                <p>HTML, CSS, GoogleFonts challenge to build something that highlighted multiple Google Fonts</p>
+                                <p>HTML, CSS, GoogleFonts challenge to build something that highlighted multiple Google Fonts 2015</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
                             <Link to="/portfolio" className="link primary"></Link>
@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${DBike})`}}>
                             <header className="major">
                                 <h3>D Bike Tracker</h3>
-                                <p>Final year project from <a href="http://iadt.ie">IADT</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
+                                <p>Final year project from <a href="http://iadt.ie">IADT 2017</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
                             </header>
                             <Link to="/portfolio" className="link primary"></Link>
                         </article>
@@ -63,7 +63,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${TBM})`}}>
                             <header className="major">
                                 <h3>Tour Bus Massacre</h3>
-                                <p>A companion website for a Java CRUD application from second year of university. Built using HTML, CSS & JavaScript. There is a fully functioning PHP version that uses the same DB as the Java app.</p>
+                                <p>A companion website for a Java CRUD application from 2015. Built using HTML, CSS & JavaScript. There is a fully functioning PHP version that uses the same DB as the Java app.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
                             <Link to="/portfolio" className="link primary"></Link>
