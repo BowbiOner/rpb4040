@@ -35,14 +35,14 @@ class HomeIndex extends React.Component {
                                 <p>HTML, CSS, GoogleFonts challenge to build something that highlighted multiple Google Fonts</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${DBike})`}}>
                             <header className="major">
                                 <h3>D Bike Tracker</h3>
                                 <p>Final year project from <a href="http://iadt.ie">IADT</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${SNM})`}}>
                             <header className="major">
@@ -50,7 +50,7 @@ class HomeIndex extends React.Component {
                                 <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${HO})`}}>
                             <header className="major">
@@ -58,7 +58,7 @@ class HomeIndex extends React.Component {
                                 <p>A build using HTML, CSS, JavaScript. Integrated Shopify for eCommerce & Juicer for a Instagram feed.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${TBM})`}}>
                             <header className="major">
@@ -66,7 +66,7 @@ class HomeIndex extends React.Component {
                                 <p>A companion website for a Java CRUD application from second year of university. Built using HTML, CSS & JavaScript. There is a fully functioning PHP version that uses the same DB as the Java app.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${SDLC})`}}>
                             <header className="major">
@@ -74,7 +74,7 @@ class HomeIndex extends React.Component {
                                 <p>My first Wordpress build. Running through all the steps of the SDLC, from user roles, design, implementation & testing.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/portfolio" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
@@ -84,7 +84,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, floppy disk Doom to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Portfolio</Link></li>
+                                <li><Link to="/portfolio" className="button next">Portfolio</Link></li>
                             </ul>
                         </div>
                     </section>
