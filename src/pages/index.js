@@ -84,7 +84,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, floppy disk Doom to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/landing" className="button next">Portfolio</Link></li>
                             </ul>
                         </div>
                     </section>
