@@ -6,10 +6,10 @@ import Banner from '../components/Banner'
 
 import FiveDays from '../assets/images/5daysoffont.gif'
 import DBike from '../assets/images/dbiketracker.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import SNM from '../assets/images/sineadnimhaonaigh.png'
+import HO from '../assets/images/ho_hd.png'
+import TBM from '../assets/images/tourbusmass.gif'
+import SDLC from '../assets/images/rpbsoftware.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -44,42 +44,45 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${SNM})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Sinéad Ní Mhaonaigh</h3>
+                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${HO})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Honest Oats</h3>
+                                <p>A build using HTML, CSS, JavaScript. Integrated Shopify for eCommerce & Juicer for a Instagram feed.</p>
                             </header>
+                            {/* need to change landing to a portfolio page with more info */}
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${TBM})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Tour Bus Massacre</h3>
+                                <p>A companion website for a Java CRUD application from second year of university. Built using HTML, CSS & JavaScript. There is a fully functioning PHP version that uses the same DB as the Java app.</p>
                             </header>
+                            {/* need to change landing to a portfolio page with more info */}
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${SDLC})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Software Development Life Cycle</h3>
+                                <p>My first Wordpress build. Running through all the steps of the SDLC, from user roles, design, implementation & testing.</p>
                             </header>
+                            {/* need to change landing to a portfolio page with more info */}
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Rory P. Boyle</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, floppy disk Doom to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
