@@ -49,7 +49,7 @@ const Portfolio = (props) => (
                             <header className="major">
                                 <h3>Web</h3>
                             </header>
-                            <p>A collection of web works by yours truly, from HTML, CSS & JS to CMS work.</p>
+                            <p>A collection of web works by yours truly, from HTML, CSS, PHP & JS.</p>
                             <ul className="actions">
                                 <li><Link to="/portfolio/web" className="button">See more</Link></li>
                             </ul>
