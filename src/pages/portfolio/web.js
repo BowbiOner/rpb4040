@@ -108,7 +108,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Rory P. Boyle</h2>
                             </header>
-                            <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, floppy disk Doom to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
+                            <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, loading Doom from a floppy disk to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
                             <ul className="actions">
                                 <li><Link to="/portfolio" className="button next">Portfolio</Link></li>
                             </ul>
