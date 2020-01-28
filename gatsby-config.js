@@ -17,8 +17,7 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
-    },
-    {
+
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
@@ -36,6 +35,7 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "rpb.world"
       },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
