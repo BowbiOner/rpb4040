@@ -40,14 +40,14 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${DBike})`}}>
                             <header className="major">
                                 <h3>D Bike Tracker</h3>
-                                <p>Final year project from <a href="http://iadt.ie">IADT 2017</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
+                                <p>Final year project from <a href="http://iadt.ie" target="_blank" rel="noopener noreferrer">IADT 2017</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
                             </header>
                             <Link to="/portfolio" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${SNM})`}}>
                             <header className="major">
                                 <h3>Sinéad Ní Mhaonaigh</h3>
-                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
+                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com" target="_blank" rel="noopener noreferrer">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
                             <Link to="/portfolio" className="link primary"></Link>

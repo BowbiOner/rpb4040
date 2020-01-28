@@ -23,7 +23,7 @@ const Portfolio = (props) => (
                     <header className="major">
                         <h2>Creative Computing</h2>
                     </header>
-                    <p>I have a BSc. in Creative Computer from <a href="https://www.iadt.ie/courses/creative-computing" target="_blank" >IADT</a>. The course was amazing the lecturers really provided an in-depth look into all the technologies covered. 
+                    <p>I have a BSc. in Creative Computer from <a href="https://www.iadt.ie/courses/creative-computing" target="_blank" rel="noopener noreferrer">IADT</a>. The course was amazing the lecturers really provided an in-depth look into all the technologies covered. 
                     We were not limited to just programming / web development with study a wide range of digital media production techniques.
                     <h4>Technologies covered</h4>
                     <ul>
@@ -36,7 +36,7 @@ const Portfolio = (props) => (
                         <li>3DS MAXX</li>
                         <li>Java & Android Development</li>
                     </ul></p>
-                    <p>So now I hope to share the fruits of that labour with the world, hopefully I can inspire someone as <a href="https://taniarascia.com" >Tania Rascia</a> has inspired me.</p>
+                    <p>So now I hope to share the fruits of that labour with the world, hopefully I can inspire someone as <a href="https://taniarascia.com" target="_blank" rel="noopener noreferrer">Tania Rascia</a> has inspired me.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">

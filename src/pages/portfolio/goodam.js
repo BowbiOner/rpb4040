@@ -22,7 +22,7 @@ const GoodAM = (props) => (
                     A HTML, CSS 960 grid from 2014, using a song from the Late Great Mac Miller's GO:OD AM.
                         <br/>
                         <br/>
-                        <a href="https://www.macmillerswebsite.com/" target="_blank">RIP Mac Miller</a>
+                        <a href="https://www.macmillerswebsite.com/" target="_blank" rel="noopener noreferrer">RIP Mac Miller</a>
                     </p>
                     
                     <span className="image main"><img src={GAM} alt="gif of the webpage working" /></span>

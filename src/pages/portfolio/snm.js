@@ -19,7 +19,7 @@ const SNMPage = (props) => (
                         <h1>Sinéad Ní Mhaonaigh</h1>
                     </header>
                     <span className="image main"><img src={SNM} alt="screen grab from snm.com" /></span>
-                    <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh<a href="https://sineadnimhaonaigh.com">Sinéad Ní Mhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.
+                    <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh<a href="https://sineadnimhaonaigh.com" target="_blank" rel="noopener noreferrer">Sinéad Ní Mhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.
 
 She wanted a clean design and a gallery for her works. Achár was her last exhibition. </p>
                     

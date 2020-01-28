@@ -49,7 +49,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${SNM})`}}>
                             <header className="major">
                                 <h3>Sinéad Ní Mhaonaigh</h3>
-                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
+                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com" target="_blank" rel="noopener noreferrer">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
                             </header>
                             {/* need to change landing to a portfolio page with more info */}
                             <Link to="/portfolio/snm" className="link primary"></Link>

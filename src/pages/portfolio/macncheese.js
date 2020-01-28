@@ -22,7 +22,7 @@ const MACnCheese = (props) => (
                         A class project that was to build a simple site using the 960 grid system in HTML & CSS.
                         <br/>
                         <br/>
-                        <a href="https://www.macmillerswebsite.com/" target="_blank">RIP Mac Miller</a>
+                        <a href="https://www.macmillerswebsite.com/" target="_blank" rel="noopener noreferrer">RIP Mac Miller</a>
                     </p>
                     
                     <span className="image main"><img src={MnC} alt="gif of the webpage working" /></span>

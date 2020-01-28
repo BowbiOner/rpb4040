@@ -22,7 +22,7 @@ const NeverSettle = (props) => (
                     A HTML, CSS 960 grid from 2014, showcasing the OnePlus 2. in 2020 I have a OnePlus 6 and they are gonna keep churning them out.
                         <br/>
                         <br/>
-                        <a href="https://oneplus.net/" target="_blank">Never Settle?</a>
+                        <a href="https://oneplus.net/" target="_blank" rel="noopener noreferrer">Never Settle?</a>
                     </p>
                     
                     <span className="image main"><img src={NS} alt="gif of the webpage working" /></span>
