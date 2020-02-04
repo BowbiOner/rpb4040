@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
                 <div id="main">
             <section id="one">
                 <div className="inner">
-                    <header className="major">
+                    <header id="cc" className="major">
                         <h2>Creative Computing</h2>
                     </header>
                     <p>I have a BSc. in Creative Computer from <a href="https://www.iadt.ie/courses/creative-computing" target="_blank" rel="noopener noreferrer">IADT</a>. The course was amazing the lecturers really provided an in-depth look into all the technologies covered. 
