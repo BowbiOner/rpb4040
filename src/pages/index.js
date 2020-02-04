@@ -13,6 +13,7 @@ import Banner from '../components/Banner'
 import FunkSoul from '../assets/images/funksoul.gif'
 import VidGif from '../assets/images/vid4rpb.gif'
 import Posters from '../assets/images/posters-dmpt.gif'
+import Hardware from '../assets/images/hardware.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -63,7 +64,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>A collection of web works by yours truly, from HTML, CSS, PHP & JS.</p>
                             <ul className="actions">
-                                <li><Link to="/portfolio/web" className="button">See more</Link></li>
+                                <li><Link to="/portfolio/" className="button">Web</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +80,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>I will post a collection of videos I have fully completed and edited here. These are by far the worst bits of work I have lol.</p>
                             <ul className="actions">
-                                <li><Link to="/portfolio/video" className="button">See more</Link></li>
+                                <li><Link to="/portfolio/video" className="button">Videos</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -95,7 +96,23 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>This will be where all the illustrations and photo edits I have done over the past 6 years here. Feel free to let me know what you think (be brutal).</p>
                             <ul className="actions">
-                                <li><Link to="/portfolio/ill-photos" className="button">See more</Link></li>
+                                <li><Link to="/portfolio/ill-photos" className="button">Photoshop & Illustrator</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/hardware" className="image">
+                        <img src={Hardware} alt="posters I made for a local sport club events (no money made)" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Hardware Builds</h3>
+                            </header>
+                            <p>Hardware builds that I have gone and did will be posted here. If you need help with a build hit me up.</p>
+                            <ul className="actions">
+                                <li><Link to="/hardware" className="button">Hardware</Link></li>
                             </ul>
                         </div>
                     </div>
