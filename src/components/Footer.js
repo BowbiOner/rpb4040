@@ -5,7 +5,7 @@ const Footer = (props) => (
         <div className="inner">
             <ul className="icons">
                 <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                <li><a href="https://www.instagram.com/rawrdwag_/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
+                <li><a href="https://www.instagram.com/rawrdawg_/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                 <li><a href="https://github.com/BowbiOner" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
                 <li><a href="https://www.linkedin.com/in/rory-plunkett-boyle-079781111/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>

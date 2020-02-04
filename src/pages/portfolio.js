@@ -4,9 +4,18 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import FunkSoul from '../assets/images/funksoul.gif'
-import VidGif from '../assets/images/vid4rpb.gif'
-import Posters from '../assets/images/posters-dmpt.gif'
+import FiveDays from '../assets/images/5daysoffont.gif'
+import DBike from '../assets/images/dbiketracker.jpg'
+import SNM from '../assets/images/sineadnimhaonaigh.png'
+import HO from '../assets/images/ho_hd.png'
+import TBM from '../assets/images/tourbusmass.gif'
+import SDLC from '../assets/images/rpbsoftware.jpg'
+import MnC from '../assets/images/macncheeze.gif'
+import GAM from '../assets/images/goodam.gif'
+import OnePlus from '../assets/images/neversettle.gif'
+// import FunkSoul from '../assets/images/funksoul.gif'
+// import VidGif from '../assets/images/vid4rpb.gif'
+// import Posters from '../assets/images/posters-dmpt.gif'
 
 const Portfolio = (props) => (
     <Layout>
@@ -16,81 +25,95 @@ const Portfolio = (props) => (
         </Helmet>
 
         <BannerLanding />
-
+        {/* WEB PORT STARTS  */}
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h2>Creative Computing</h2>
-                    </header>
-                    <p>I have a BSc. in Creative Computer from <a href="https://www.iadt.ie/courses/creative-computing" target="_blank" rel="noopener noreferrer">IADT</a>. The course was amazing the lecturers really provided an in-depth look into all the technologies covered. 
-                    We were not limited to just programming / web development with study a wide range of digital media production techniques.
-                    <h4>Technologies covered</h4>
-                    <ul>
-                        <li>HTML, CSS & JavaScript</li>
-                        <li>PHP & MySQL</li>
-                        <li>Advanced Javascript & NoSQL</li>
-                        <li>Computer Hardware & OS Architecture</li>
-                        <li>Digital Media Entrepreneurship</li>
-                        <li>Adobe Master Suite</li>
-                        <li>3DS MAXX</li>
-                        <li>Java & Android Development</li>
-                    </ul></p>
-                    <p>So now I hope to share the fruits of that labour with the world, hopefully I can inspire someone as <a href="https://taniarascia.com" target="_blank" rel="noopener noreferrer">Tania Rascia</a> has inspired me.</p>
+                    <section id="one" className="tiles">
+                        <article style={{backgroundImage: `url(${FiveDays})`}}>
+                            <header className="major">
+                                <h3>5 Days of Font</h3>
+                                <p>HTML, CSS, GoogleFonts challenge to build something that highlighted multiple Google Fonts</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/5days" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${DBike})`}}>
+                            <header className="major">
+                                <h3>D Bike Tracker</h3>
+                                <p>Final year project from <a href="http://iadt.ie">IADT</a>. This was built by Aaron O Hare & I. Our initial aim was to build an Android Application that dealt with real time data using Cordova.</p>
+                            </header>
+                            <Link to="/portfolio/dbike" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${SNM})`}}>
+                            <header className="major">
+                                <h3>Sinéad Ní Mhaonaigh</h3>
+                                <p>A Wordpress build for the very impressive Irish artist Sinéad Ní Mhaonaigh <a href="https://sineadnimhaonaigh.com" target="_blank" rel="noopener noreferrer">sineadnimhaonaigh</a>. A very talented artist and Gaeilgeoir (fluent Irish speaker) from the town of Bray, Co. Wicklow.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/snm" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${HO})`}}>
+                            <header className="major">
+                                <h3>Honest Oats</h3>
+                                <p>A build using HTML, CSS, JavaScript. Integrated Shopify for eCommerce & Juicer for a Instagram feed.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/honestoats" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${TBM})`}}>
+                            <header className="major">
+                                <h3>Tour Bus Massacre</h3>
+                                <p>A companion website for a Java CRUD application from second year of university. Built using HTML, CSS & JavaScript. There is a fully functioning PHP version that uses the same DB as the Java app.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/tbm" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${SDLC})`}}>
+                            <header className="major">
+                                <h3>Software Development Life Cycle</h3>
+                                <p>My first Wordpress build. Running through all the steps of the SDLC, from user roles, design, implementation & testing.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/sdlc" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${MnC})`}}>
+                            <header className="major">
+                                <h3>Mac N Cheese</h3>
+                                <p>A HTML, CSS 960 grid from 2014.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/macncheese" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${GAM})`}}>
+                            <header className="major">
+                                <h3>GO:OD AM</h3>
+                                <p>A HTML, CSS 960 grid from 2014, using a song from the Late Great Mac Miller's GO:OD AM.</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/goodam" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${OnePlus})`}}>
+                            <header className="major">
+                                <h3>Never Settle</h3>
+                                <p>A HTML, CSS 960 grid from 2014, using the OnePlus 2. Now I'm on the OnePlus 6</p>
+                            </header>
+                            {/* need to change landing to a portfolio page with more info */}
+                            <Link to="/portfolio/neversettle" className="link primary"></Link>
+                        </article>
+                    </section>
+                    <section id="two">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Rory P. Boyle</h2>
+                            </header>
+                            <p>A tech enthusiast for the past 19 years, from the original gameboy, crt monitors, loading Doom from a floppy disk to now trying to produce more digital media that will hopefully inspire someone to become a creator. Follow the journey with me if you will.</p>
+                            <ul className="actions">
+                                <li><Link to="/portfolio" className="button next">Portfolio</Link></li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
-            </section>
-            <section id="two" className="spotlights">
-                <section>
-                    <Link to="/portfolio/web" className="image">
-                        <img src={FunkSoul} alt="a gif of a site i built for rap albums" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Web</h3>
-                            </header>
-                            <p>A collection of web works by yours truly, from HTML, CSS, PHP & JS.</p>
-                            <ul className="actions">
-                                <li><Link to="/portfolio/web" className="button">See more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/portfolio/video" className="image">
-                        <img src={VidGif} alt="snapshots of videos ive edited" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Videos</h3>
-                            </header>
-                            <p>I will post a collection of videos I have fully completed and edited here. These are by far the worst bits of work I have lol.</p>
-                            <ul className="actions">
-                                <li><Link to="/portfolio/video" className="button">See more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/portfolio/ill-photos" className="image">
-                        <img src={Posters} alt="posters I made for a local sport club events (no money made)" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Photoshop & Illustrator</h3>
-                            </header>
-                            <p>This will be where all the illustrations and photo edits I have done over the past 6 years here. Feel free to let me know what you think (be brutal).</p>
-                            <ul className="actions">
-                                <li><Link to="/portfolio/ill-photos" className="button">See more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section>
-        </div>
-
+            {/* WEB PORT ENDS */}
+        
     </Layout>
 )
 
