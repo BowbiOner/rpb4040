@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import WebBanner from '../components/WebBanner'
 
 import FiveDays from '../assets/images/5daysoffont.gif'
 import DBike from '../assets/images/dbiketracker.jpg'
@@ -24,7 +24,7 @@ const Portfolio = (props) => (
             <meta name="description" content="Portfolio Page" />
         </Helmet>
 
-        <BannerLanding />
+        <WebBanner />
         {/* WEB PORT STARTS  */}
         <div id="main">
                     <section id="one" className="tiles">

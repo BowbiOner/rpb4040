@@ -22,7 +22,7 @@ const HonestOats = (props) => (
                     
                     <span className="image main"><img src={HO} alt="screen grab from snm.com" /></span>
                     <ul className="actions">
-                                <li><Link to="/portfolio/web" className="button next">Web Portfolio</Link></li>
+                                <li><Link to="/portfolio/" className="button next">Web Portfolio</Link></li>
                             </ul>
                 </div>
             </section>

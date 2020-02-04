@@ -24,7 +24,7 @@ const SNMPage = (props) => (
 She wanted a clean design and a gallery for her works. Achár was her last exhibition. </p>
                     
                     <ul className="actions">
-                                <li><Link to="/portfolio/web" className="button next">Web Portfolio</Link></li>
+                                <li><Link to="/portfolio/" className="button next">Web Portfolio</Link></li>
                             </ul>
                 </div>
             </section>
